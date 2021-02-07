@@ -8,7 +8,8 @@ document.getElementById("searchButton").addEventListener("click", function () {
 
     if (mealName === "") {
         showWarning("Please Enter a meal name...")
-    } else {
+    } 
+    else {
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${mealName}`)
             .then(res => res.json())
             .then(data => {
@@ -22,7 +23,6 @@ document.getElementById("searchButton").addEventListener("click", function () {
   })
   
   function processData(meals) {
-    // clearing previous search result
     document.getElementById("meal-list").innerHTML = "";
     
     meals.forEach(meal => {
@@ -75,6 +75,7 @@ document.getElementById("searchButton").addEventListener("click", function () {
         `;
         document.getElementById("ingredient-list").appendChild(li)
     }
+    
     document.getElementById("meal-details").style.display = "block";
     document.getElementById("meal-details").scrollIntoView({behavior: "smooth"});
   }
