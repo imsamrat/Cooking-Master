@@ -1,3 +1,4 @@
+/* Header Section Start */
 body{
     background-color: #EDD263;
 }
@@ -24,3 +25,25 @@ body{
     background-color: #3B2D64;
     color: white;
 }
+/* Header Section End */
+
+/* Search Section Start */
+.error-message{
+    height: 30px;
+    margin-bottom: 10px;
+}
+#input-meal-name{
+    background-color: #F8F7F5
+}
+
+#searchButton{
+    color: white;
+    background-color: #F06C4E;
+}
+
+#error-text{
+    color:  red;
+    padding-left: 260px;
+    height: 100%;
+}
+/* Search Section End */

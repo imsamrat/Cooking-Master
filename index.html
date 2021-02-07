@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
-    <!-- Header Start -->
+    <!-- Header Section Start -->
     <header class="container">
         <nav class="navbar navbar-expand-lg mt-3">
             <div class="container-fluid">
@@ -40,7 +40,21 @@
             </div>
           </nav>
     </header>
-    <!-- Header End -->
+    <!-- Header Section End -->
+    <!-- Search Section Start -->
+    <main class="container">
+        <form action="">
+            <div class="input-group mb-3 input-area d-flex justify-content-center mt-5">
+                <input id="input-meal-name" type="text" class="border-none" placeholder="Search a Meal...">
+                <button id="searchButton" class="btn btn-outline-secondary">Search</button>
+            </div>
+            <div class="error-message">
+                <h3 id="error-text"></h3>
+            </div>
+        </form>
+        
+    </main>
+    <!-- Search Section End -->
     <!-- JavaScript Link -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
