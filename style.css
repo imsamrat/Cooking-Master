@@ -10,6 +10,7 @@ body{
     font-size: 20px;
     color: #43413A;
 }
+
 .input-area input{
     width: 500px;
     height: 50px;
@@ -47,3 +48,52 @@ body{
     height: 100%;
 }
 /* Search Section End */
+
+/* Display Section Start */
+.meal-image{
+    width: 100%;
+}
+
+.meal-title{
+    text-align: center;
+    margin-top: 10px;
+}
+.meal-card{
+    border-radius: 10px;
+    background-color: #F8F7F5;
+    height: 100%;
+    overflow: hidden;
+    box-shadow:1px 3px 10px gray;
+}
+
+.meal-details-image{
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#meal-details{
+    display: none;
+    margin-bottom: 15px;
+    background-color: #F8F7F5;
+    padding: 20px;
+    border-radius: 10px;
+}
+li{
+    font-size: large;
+}
+
+ul{
+    list-style-type:none;
+}
+.instructions{
+    text-align: justify;
+}
+
+.icon-color{
+    color: #F06C4E;
+}
+.meal-details-title{
+    margin-top: 15px;
+}
+/* Display Section End */
