@@ -23,7 +23,7 @@ body{
     height: 50px;
     border-radius: 5px;
     border: none;
-    background-color: #3B2D64;
+    background-color: #3B2D64 !important;
     color: white;
 }
 /* Header Section End */
